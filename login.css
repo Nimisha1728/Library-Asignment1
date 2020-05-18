@@ -3,7 +3,7 @@
     padding:0px;
 }
 body{
-     /* background-image: url("https://camo.envatousercontent.com/13001cf3c567752dce7360edd82f176737caf363/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3833616b63633064474c386e36486d67446d2f67697068792e676966");  */
+     /* background-image: url();*/
     background-image: url("giphy.gif");
      background-size: cover;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ ul a:hover{
     font-size:22px;
     color:white;
     padding:20px;
+   
 }
 input[type="checkbox"]{
     height:15px;
@@ -57,9 +58,12 @@ small{
 
 }
 .btn-info:hover{
-    background:#f44c89;
+    /* background:#f44c89; */
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 50%);
     border:2px solid #f44c89;
+
 }
+
 a{
     font-size:18px;
     margin-top:40px;
@@ -74,7 +78,43 @@ a:hover{
     height:500px;
     width:448px;
 } */
-.nav-link{
+/* .nav-link{
     font-size:20px;
     
+} */
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size:17px;
+    
 }
+.nav a:hover{
+    color: black;
+}
+.navbar{
+    background-color: darkblue;
+   
+    position: fixed;
+    width:100%;
+   
+}
+.btn-twitter{
+    background-color: dodgerblue;
+    color:white;
+    font-size: 17px;
+}
+.btn-facebk{
+    background-color: darkblue;
+    color:white;
+    font-size: 17px;
+}
+.btn-google{
+    background-color: rgba(207, 15, 15, 0.959);
+    color:white;
+    font-size: 17px;
+}
+h3{
+    color:white;
+}
+
