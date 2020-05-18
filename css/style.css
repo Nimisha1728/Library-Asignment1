@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:gray;
+    font-family: Arial Narrow, sans-serif;
+    color:white;
+}
+
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size:17px;
+    
+}
+.nav a:hover{
+    color: black;
+}
+.navbar{
+    background-color: darkblue;
+   
+    position: fixed;
+    width:100%;
+   
+}
+
+ 
+
+
+#container2{
+    min-height:200px;
+    background-color: rgb(3,3,97);
+    color:white;
+    margin-top:40px;
+    
+}
+#plainDiv{
+    background-color: darkblue;
+    margin-top:35px;
+    
+}
+#container2 h1{
+    font-size:55px;
+    color:white;
+    margin-top:50px;
+}
+
+.bs-example{
+
+     width: 100%;
+     margin:auto;
+     background-color: lightcyan;
+    
+     margin-top: -50px;
+}
+.bs-example div{
+
+margin:2%;
+padding: 10px;
+
+}
+
+img{
+    height:100px;width:100px;
+    border-radius: 50%;
+    float: left;
+}
+.media-body{
+    color:gray;
+   margin-left:20px;
+}
+.col-xs-8 p{
+    font-size:23px;
+    font-weight: 100;
+}
+button{
+    background-color: grey;
+    border: none;
+    width:120px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    float:right;
+    height: 80px;
+   
+    background-color: darkblue;
+    width:250px;
+}
+#sml{
+    font-size: 15px;
+}
+#sml,a{
+    display: inline;
+}
+
+
+

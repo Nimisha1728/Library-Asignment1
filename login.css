@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+     /* background-image: url("https://camo.envatousercontent.com/13001cf3c567752dce7360edd82f176737caf363/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f3833616b63633064474c386e36486d67446d2f67697068792e676966");  */
+    background-image: url("giphy.gif");
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: new time roman;
+}
+ul{
+    margin-bottom: 50px;
+
+}
+ul a{
+    font-size:29px;
+    color:white;
+}
+ul a:hover{
+    text-decoration: none;
+    color:gray;
+}
+.label{
+    font-size:20px;
+    color: white;
+    font-weight: normal;
+}
+.form-control{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom:1px solid #f44c89;
+    margin-bottom:30px;
+    font-size:22px;
+    color:white;
+    padding:20px;
+}
+input[type="checkbox"]{
+    height:15px;
+    width:15px;
+    
+}
+small{
+    font-size:20px;
+    color:white;
+}
+.btn-info{
+    background:#f44c89;
+    border:2px solid #f44c89;
+    border-radius:0px;
+    width:360px;
+    margin-top:20px;
+    font-size:20px;
+    background: transparent;
+
+}
+.btn-info:hover{
+    background:#f44c89;
+    border:2px solid #f44c89;
+}
+a{
+    font-size:18px;
+    margin-top:40px;
+    color:gray;
+    text-align: center;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+/* img{
+    height:500px;
+    width:448px;
+} */
+.nav-link{
+    font-size:20px;
+    
+}
