@@ -130,7 +130,7 @@ function validation() {
 
   function sweetalert(){
     swal({
-        title: 'Registration Success!!',
+        title: 'You Are Successfully Done!!',
         
         icon:"./images/successboy.jpg",
       }).then(function(){

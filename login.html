@@ -23,7 +23,10 @@
             <li><a href="#">CATEGORY</a></li>
             <li><a href="#">CATEGORY</a></li>
           </ul>
-          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup.html"> SIGN UP</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+          </ul>
         </div>
       </nav>
       
@@ -36,7 +39,7 @@
                            <a href="#" style="border-bottom:2px solid #f44c89;padding:10px;">LOGIN</a>
                            <a href="signup.html">/ SIGN UP</a>
                        </ul>
-                       <form>
+                       <form onsubmit="return myFunction();">
                        <label class="label control-label">Username</label>
                        <input type="text" class="form-control" name="user" placeholder="Username" required>
                        <label class="label control-label">Password</label>
@@ -67,6 +70,11 @@
           </div>
         </div>
     </div>
+    <script>
+        function myFunction(){
+            alert("Login success");
+        }
+    </script>  
        
 </body>
 </html>
