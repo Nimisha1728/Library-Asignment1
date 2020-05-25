@@ -3,28 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign&Login</title>
+    <title>test1</title>
     <link rel="stylesheet" type="text/css" href="css/Bootstrap.css">
     <link rel="stylesheet" type="application/css" href="js/Bootstrap.js">
     <link rel="stylesheet" type="text/css" href="login.css">
-    
-   
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-   
-    
-
-  </body>
-   
 </head>
-<body>
-    
+<body onload="sweetalert();">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
          
           <ul class="nav navbar-nav">
             
             <li><a href="index.html">HOME</a></li>
-            
             <li><a href="#">CATEGORY</a></li>
             <li><a href="#">CATEGORY</a></li>
             <li><a href="#">CATEGORY</a></li>
@@ -39,26 +30,28 @@
             <div class="col-md-8">
                 <div class="row" style="margin-top:135px;box-shadow: -1px 1px 50px 10px black;">
                    <div class="col-md-6">
-                      <form id="myForm" onsubmit="return validation()" action="test.html">
+                      <form id="myForm" onsubmit="return validation()">
                        <ul>
-                           <a href="login.html">LOGIN</a>
+                           <a href="#">LOGIN</a>
                            <a href="#" style="border-bottom:2px solid #f44c89;padding:10px;">/ SIGN UP</a>
                        </ul>
                        <span id="errorimg"></span> 
-                       <div id="error" class="error"></div>
+                       <div id="error" class="error">
+                       
+                       </div>
                        
                        
-                       <input type="text" class="form-control" id="name" placeholder="Username *" onkeydown="return hide();">
+                       <input type="text" class="form-control" id="name" placeholder="Username">
                       
-                     
-                       <input type="email" class="form-control" id="email" placeholder="Email *" onkeydown="return hide();">
-                       
-                       <input type="text" class="form-control" id="number" placeholder="Mobile No *" onkeydown="return hide();">
                       
-                       <input type="password" class="form-control" id="pwd" placeholder="Password *" onkeyup="return strength();" onkeydown="return hide();">
+                       <input type="email" class="form-control" id="email" placeholder="Email" >
+                      
+                       <input type="text" class="form-control" id="number" placeholder="Mobile No">
+                      
+                       <input type="password" class="form-control" id="pwd" placeholder="Password">
                        <p class="strength" id="length"></p>
                       
-                       <input type="password" class="form-control" id="cPwd" placeholder="Retype-password *" onkeydown="return hide();">
+                       <input type="password" class="form-control" id="cPwd" placeholder="Retype-password" >
                        <input type="date" id="dob" class="form-control">
                        <label class="radio-inline">
                          <input type="radio" name="option" checked>Male
@@ -69,10 +62,13 @@
                       <label class="radio-inline">
                         <input type="radio" name="option">Transgender
                       </label><br><br>
-                      
+                       
+
+                 
                        <input type="checkbox"><small>Remember me ?</small>
                        
                        <button type="submit" class="btn btn-info">SIGN UP</button>
+                      
                       </form>
                    </div>
                  <div class="col-md-6">  
@@ -84,6 +80,7 @@
             <div class="col-md-2"></div>
         </div>
     </div><br>
+   
     <div class="footer" style="padding-top: 50px;">
         <div class="container">
           
@@ -95,8 +92,6 @@
           </div>
         </div>
     </div>
-    <script src="validate.js"></script>
-   
-    
+    <script src="validate.js"></script>  
 </body>
 </html>
