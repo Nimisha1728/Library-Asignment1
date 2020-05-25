@@ -41,7 +41,7 @@ body{
 #plainDiv{
     background-color: darkblue;
     margin-top:60px;
-    
+   margin-left:-15px;
 }
 #container2 h1{
     font-size:63px;
